@@ -15,20 +15,26 @@ Write a C program to print even numbers ranging from M to N (including M and N v
 ```
 #include<stdio.h>
 int main()
+#include<stdio.h>
+int main()
 {
     int M,N;
     printf("Enter the starting value: ");
     scanf("%d",&M);
     printf("\nEnter the ending value: ");
     scanf("%d",&N);
-    for(int num=M;num<=N;num++){
-        printf("%d ",num);
+    for(int num=M;num<=N;num++)
+    {
+        if(num%2==0){
+            printf("%d ",num);
+        }
     }
     return 0;
 }
 ```
 ## OUTPUT:
-<img width="399" height="238" alt="Screenshot 2025-12-26 185642" src="https://github.com/user-attachments/assets/e67448fb-5f83-402a-832a-55ac33ce1094" />
+<img width="391" height="236" alt="image" src="https://github.com/user-attachments/assets/2b1c83bb-fd5b-40c1-b26d-79bb2c8d4fd0" />
+
 
 
 
